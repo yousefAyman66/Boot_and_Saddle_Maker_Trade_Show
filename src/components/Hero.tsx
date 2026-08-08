@@ -1,9 +1,8 @@
 import { ArrowRight, MapPin, CalendarDays, Clock } from 'lucide-react';
 import CTAButton from './CTAButton';
 import { event } from '@/data/event';
-
 const heroImg =
-  'https://images.pexels.com/photos/14759054/pexels-photo-14759054.jpeg?auto=compress&cs=tinysrgb&w=1920';
+  'https://images.pexels.com/photos/6768450/pexels-photo-6768450.jpeg?auto=compress&cs=tinysrgb&w=1600';
 const heroImg2 =
   'https://images.pexels.com/photos/4452619/pexels-photo-4452619.jpeg?auto=compress&cs=tinysrgb&w=1600';
 
@@ -14,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="A pair of handcrafted leather cowboy boots resting on a wooden chair, lit warmly."
+          alt="A woman crafting leather goods in a warm workshop."
           className="h-full w-full object-cover object-center opacity-70 animate-kenburns"
           fetchPriority="high"
         />
